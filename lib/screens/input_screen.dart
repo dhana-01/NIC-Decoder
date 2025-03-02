@@ -17,7 +17,7 @@ class InputScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Glassmorphic TextField
+              /// NIC Input Field with Glassmorphic Effect
               Container(
                 decoration: BoxDecoration(
                   color: Colors.white.withOpacity(0.1),
@@ -37,7 +37,7 @@ class InputScreen extends StatelessWidget {
               ),
               SizedBox(height: 20),
 
-              // Animated Button
+              /// Animated Decode Button
               GestureDetector(
                 onTap: () {
                   controller.decodeNIC(nicController.text);

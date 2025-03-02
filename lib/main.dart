@@ -7,6 +7,7 @@ void main() {
   runApp(MyApp());
 }
 
+/// The root widget of the NIC Decoder application.
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

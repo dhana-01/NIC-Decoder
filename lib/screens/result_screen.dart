@@ -64,7 +64,7 @@ class ResultScreen extends StatelessWidget {
     );
   }
 
-  // Animated Text Widget
+  /// Builds animated text widgets for displaying NIC details.
   Widget _buildAnimatedText(String text) {
     return TweenAnimationBuilder(
       duration: Duration(milliseconds: 500),
